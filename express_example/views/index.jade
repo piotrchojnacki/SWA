@@ -1,0 +1,14 @@
+html
+  head
+    title= title
+    meta(charset='UTF-8')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    script(src='/javascripts/send.js')
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+  body
+    br
+    .container
+      .form-group      
+        textarea#myTextarea.form-control
+        br
+        button.btn.btn-lg.btn-info(type='button', onclick='send()') Send message
